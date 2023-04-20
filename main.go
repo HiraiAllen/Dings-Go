@@ -10,6 +10,6 @@ import (
 func main() {
 	routes.SetupRoutes()
 
-	log.Println("Iniciando servidor en http://localhost:8080...")
-	log.Fatal(http.ListenAndServe(":8080", nil))
+	log.Println("Iniciando servidor en http://localhost:8090...")
+	log.Fatal(http.ListenAndServe(":8090", nil))
 }
